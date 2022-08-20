@@ -9,8 +9,11 @@
   height: 100vh;
 }
 
+img {
+  max-width: 100%;
+}
 .card {
-  width: 400px;
+  width: 350px;
 
   /* color: blue; */
   background-color: #baa6c8;
@@ -18,14 +21,15 @@
   box-shadow: 1px 0px 1px black;
   display: flex;
   flex-direction: row;
+  border-left: 5px solid palevioletred;
 }
-
 .photo {
   width: 50px;
-  padding: 5p;
-  margin: 6px 8px;
-}
 
+  /* padding: 5px; */
+  margin: 6px 8px;
+  border-radius: 6px;
+}
 
 .name-emai {
   width: 80%;
@@ -39,7 +43,8 @@ p {
 
 .user {
   display: flex;
-
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 3em;
+  margin-block-start: 2em;
+  padding: 1em;
 }
